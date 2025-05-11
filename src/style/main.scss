@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$color-star:#F24422;
+$color-end:#BF0909;
+.gradient-bg{
+    background: linear-gradient(to right , $color-star , $color-end);
+}

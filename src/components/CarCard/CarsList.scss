@@ -1,0 +1,19 @@
+.tabs {
+  display: flex;
+  gap: 12px;
+  
+  margin-top: 80px;
+  padding: 0 80px;
+
+
+  button {
+    padding: 5px 16px;
+    border-radius: 8px ;
+    border: 1px solid #f24422;
+    
+  }
+}
+.car-page{
+  max-width: 1440px;
+  margin: 0 auto;
+}
