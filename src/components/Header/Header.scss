@@ -1,74 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
-.header{
-   
-    .header-container{
-        max-width: 1440px;
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-    .logo{
-        width: 87px;
-        height: 33px;
-        object-fit: contain;
-    }
-}
-
-
-.left-section{
+.header {
+  .header-container {
+    max-width: 1280px;
     display: flex;
-    justify-content: space-between;
-    padding: 12px 80px;
-    align-items: center;
-    .btn{
-        padding: 10px 16px;
-        border-radius: 12px;
-        color: white;
-        width: 155px;
-        height: 44px;
-    }
-    .menu{
-        display: flex;
-        gap: 56px;
-    }
-    .menu a{
-        font-size: 14px;
-        font-weight: 400;
-        padding: 4px;
-        gap: 56;
-    }
-}
-
-
-
-
-
-.right-section{
-    display: flex;
+    // flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 125px;
-    
-    
-    .contact-phone{
-        display: flex;
-        order: 3;
-        color: white;
-        align-items: center;
-    }
-    .social-box{
-        display: flex;
-        order: 1;
-        color: white;
-        gap: 12px; 
-    }
-    .social-icon{
-        font-size: 20px;
 
-    }
-    .contact-number{
-        font-size: 20px;
-        font-weight: 400;
-        padding: 0 8px;
-    }
+    margin: 0 auto;
+  }
+  .logo {
+    width: 87px;
+    height: 33px;
+    object-fit: contain;
+  }
+  .btn {
+    padding: 10px 16px;
+    border-radius: 12px;
+    color: white;
+    width: 155px;
+    height: 44px;
+  }
+}
+
+.left-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 80px;
+  align-items: center;
+  .menu {
+    display: flex;
+    gap: 56px;
+  }
+  .menu a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: DM Sans;
+    padding: 4px;
+    gap: 56;
+  }
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 125px;
+
+  .contact-phone {
+    display: flex;
+    order: 3;
+    color: white;
+    align-items: center;
+  }
+  .social-box {
+    display: flex;
+    order: 1;
+    color: white;
+    gap: 12px;
+  }
+  .social-icon {
+    font-size: 20px;
+  }
+  .contact-number {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 8px;
+  }
+}
+.mobile-menu-icon {
+  display: none;
+}
+
+@media (max-width: 1035px) {
+  .left-section {
+    display: none;
+  }
+  .contact-btn {
+    display: none;
+  }
+  .mobile-menu-icon {
+    display: block;
+  }
+  .header-container {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 16px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 400;
+  }
+}
+
+@media (max-width:730px){
+  .right-section{
+    display: none;
+  }
 }
