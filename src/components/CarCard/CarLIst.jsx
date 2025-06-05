@@ -1,13 +1,15 @@
 import React, { useState } from 'react'
 import CarCArd from './CarCArd'
 import './CarsList.scss'
+import carImg from "../../assets/car.png";
+
 
 const CarLIst = () => {
     const carData = [
         {
             name: 'Toyoto Carollo',
             fuel: 'Benzin',
-            image: '../../assets/car.png',
+            image: carImg,
             price1: 45.00,
             price2: 35.00,
             price3: 25.00,
@@ -16,7 +18,7 @@ const CarLIst = () => {
         {
             name: ' Carollo',
             fuel: 'Dizel',
-            image: '../../assets/car.png',
+            image: carImg,
             price1: 45.00,
             price2: 35.00,
             price3: 25.00,
@@ -25,7 +27,7 @@ const CarLIst = () => {
         {
             name: 'Nissan',
             fuel: 'Eco',
-            image: '../../assets/car.png',
+            image: carImg,
             price1: 45.00,
             price2: 35.00,
             price3: 25.00,
@@ -34,7 +36,7 @@ const CarLIst = () => {
         {
             name: 'BMW',
             fuel: 'Eco',
-            image: '../../assets/car.png',
+            image: carImg,
             price1: 45.00,
             price2: 35.00,
             price3: 25.00,
@@ -43,7 +45,7 @@ const CarLIst = () => {
         {
             name: 'Hundai',
             fuel: 'Eco',
-            image: '../../assets/car.png',
+            image: carImg,
             price1: 45.00,
             price2: 35.00,
             price3: 25.00,
@@ -52,7 +54,7 @@ const CarLIst = () => {
         {
             name: 'Nissan',
             fuel: 'Eco',
-            image: '../../assets/car.png',
+            image: carImg,
             price1: 45.00,
             price2: 35.00,
             price3: 25.00,
@@ -61,7 +63,7 @@ const CarLIst = () => {
         {
             name: 'Nissan',
             fuel: 'Eco',
-            image: '../../assets/car.png',
+            image: carImg,
             price1: 45.00,
             price2: 35.00,
             price3: 25.00,
@@ -70,7 +72,7 @@ const CarLIst = () => {
         {
             name: 'Nissan',
             fuel: 'Eco',
-            image: '../../assets/car.png',
+            image: carImg,
             price1: 45.00,
             price2: 35.00,
             price3: 25.00,
