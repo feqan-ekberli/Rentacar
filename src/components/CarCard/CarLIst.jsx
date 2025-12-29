@@ -56,19 +56,19 @@ const CarLIst = () => {
   }, [cars, activeCategory])
 
   return (
-    <div className="car-page">
+    // <div className="car-page">
 
-      {/* Status bar (QA uşaqları üçün yaxşıdır: görür ki, data API-dən gəlir) */}
-      <div style={{ display: "flex", gap: 12, alignItems: "center", marginBottom: 12 }}>
-        <div style={{ fontSize: 12, opacity: 0.8 }}>
-          API: <span style={{ opacity: 1 }}>{API_URL}</span>
-        </div>
-        {/* <div style={{ fontSize: 12, opacity: 0.8 }}>
-          Count: <b>{cars.length}</b>
-        </div> */}
-        {loading && <div style={{ fontSize: 12 }}>Loading...</div>}
-        {error && <div style={{ fontSize: 12, color: "red" }}>Error: {error}</div>}
-      </div>
+    //   {/* Status bar (QA uşaqları üçün yaxşıdır: görür ki, data API-dən gəlir) */}
+    //   <div style={{ display: "flex", gap: 12, alignItems: "center", marginBottom: 12 }}>
+    //     <div style={{ fontSize: 12, opacity: 0.8 }}>
+    //       API: <span style={{ opacity: 1 }}>{API_URL}</span>
+    //     </div>
+    //     {/* <div style={{ fontSize: 12, opacity: 0.8 }}>
+    //       Count: <b>{cars.length}</b>
+    //     </div> */}
+    //     {loading && <div style={{ fontSize: 12 }}>Loading...</div>}
+    //     {error && <div style={{ fontSize: 12, color: "red" }}>Error: {error}</div>}
+    //   </div>
 
       {/* Tabs */}
       <div className="tabs">
