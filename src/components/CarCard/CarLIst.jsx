@@ -63,9 +63,9 @@ const CarLIst = () => {
         <div style={{ fontSize: 12, opacity: 0.8 }}>
           API: <span style={{ opacity: 1 }}>{API_URL}</span>
         </div>
-        <div style={{ fontSize: 12, opacity: 0.8 }}>
+        {/* <div style={{ fontSize: 12, opacity: 0.8 }}>
           Count: <b>{cars.length}</b>
-        </div>
+        </div> */}
         {loading && <div style={{ fontSize: 12 }}>Loading...</div>}
         {error && <div style={{ fontSize: 12, color: "red" }}>Error: {error}</div>}
       </div>
